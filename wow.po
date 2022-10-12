@@ -4,7 +4,7 @@ msgstr ""
 
 #: wow.md:block 2 (header)
 msgid "Security"
-msgstr "보안"
+msgstr "보안임"
 
 #: wow.md:block 3 (paragraph)
 msgid ""
