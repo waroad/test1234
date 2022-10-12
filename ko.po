@@ -1,0 +1,141 @@
+#
+msgid ""
+msgstr ""
+
+#: wow.md:block 2 (header)
+msgid "Security"
+msgstr "보안"
+
+#: wow.md:block 3 (paragraph)
+msgid ""
+"Microsoft takes the security of our software products and services "
+"seriously, which includes all source code repositories managed through our "
+"GitHub organizations, which include "
+"[Microsoft](https://github.com/Microsoft), "
+"[Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), "
+"[AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), "
+"and [our GitHub organizations](https://opensource.microsoft.com/)."
+msgstr "나는야 주수 될거야"
+
+#: wow.md:block 4 (paragraph)
+msgid ""
+"If you believe you have found a security vulnerability in any Microsoft-"
+"owned repository that meets [Microsoft's definition of a security "
+"vulnerability](https://docs.microsoft.com/en-us/previous-versions/tn-"
+"archive/cc751383(v=technet.10)), please report it to us as described below."
+msgstr ""
+
+#: wow.md:block 5 (header)
+msgid "Reporting Security Issues"
+msgstr ""
+
+#: wow.md:block 6 (paragraph)
+msgid ""
+"**Please do not report security vulnerabilities through public GitHub "
+"issues.**"
+msgstr ""
+
+#: wow.md:block 7 (paragraph)
+msgid ""
+"Instead, please report them to the Microsoft Security Response Center (MSRC)"
+" at <https://msrc.microsoft.com/create-report>."
+msgstr ""
+
+#: wow.md:block 8 (paragraph)
+msgid ""
+"If you prefer to submit without logging in, send email to "
+"[secure@microsoft.com](mailto:secure@microsoft.com). If possible, encrypt "
+"your message with our PGP key; please download it from the [Microsoft "
+"Security Response Center PGP Key page](https://www.microsoft.com/en-"
+"us/msrc/pgp-key-msrc)."
+msgstr ""
+
+#: wow.md:block 9 (paragraph)
+msgid ""
+"You should receive a response within 24 hours. If for some reason you do "
+"not, please follow up via email to ensure we received your original message."
+" Additional information can be found at "
+"[microsoft.com/msrc](https://www.microsoft.com/msrc)."
+msgstr ""
+
+#: wow.md:block 10 (paragraph)
+msgid ""
+"Please include the requested information listed below (as much as you can "
+"provide) to help us better understand the nature and scope of the possible "
+"issue:"
+msgstr ""
+
+#: wow.md:block 11 (unordered list)
+msgid ""
+"Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, "
+"etc.)"
+msgstr ""
+
+#: wow.md:block 11 (unordered list)
+msgid "Full paths of source file(s) related to the manifestation of the issue"
+msgstr ""
+
+#: wow.md:block 11 (unordered list)
+msgid ""
+"The location of the affected source code (tag/branch/commit or direct URL)"
+msgstr ""
+
+#: wow.md:block 11 (unordered list)
+msgid "Any special configuration required to reproduce the issue"
+msgstr ""
+
+#: wow.md:block 11 (unordered list)
+msgid "Step-by-step instructions to reproduce the issue"
+msgstr ""
+
+#: wow.md:block 11 (unordered list)
+msgid "Proof-of-concept or exploit code (if possible)"
+msgstr ""
+
+#: wow.md:block 11 (unordered list)
+msgid "Impact of the issue, including how an attacker might exploit the issue"
+msgstr ""
+
+#: wow.md:block 12 (paragraph)
+msgid "This information will help us triage your report more quickly."
+msgstr ""
+
+#: wow.md:block 13 (paragraph)
+msgid ""
+"If you are reporting for a bug bounty, more complete reports can contribute "
+"to a higher bounty award. Please visit our [Microsoft Bug Bounty "
+"Program](https://microsoft.com/msrc/bounty) page for more details about our "
+"active programs."
+msgstr ""
+
+#: wow.md:block 14 (header)
+msgid "Preferred Languages"
+msgstr ""
+
+#: wow.md:block 15 (paragraph)
+msgid "We prefer all communications to be in English."
+msgstr ""
+
+#: wow.md:block 16 (header)
+msgid "Policy"
+msgstr ""
+
+#: wow.md:block 17 (paragraph)
+msgid ""
+"Microsoft follows the principle of [Coordinated Vulnerability "
+"Disclosure](https://www.microsoft.com/en-us/msrc/cvd)."
+msgstr ""
+
+#~ msgid "Tutorial"
+#~ msgstr "튜토리얼"
+
+#~ msgid ""
+#~ "**mdpo** provides flexible ways for doing Markdown markup translations. In "
+#~ "this tutorial are covered the most common workflows."
+#~ msgstr "ㅁㄴㅇㄹㄴㅇㄻㄴㅇㄹㅇㄴㅁㄹ 입니다."
+
+#~ msgid ".. raw:: html"
+#~ msgstr ""
+
+#~ msgid "Markdown to markdown"
+#~ msgstr ""
