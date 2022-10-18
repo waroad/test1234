@@ -18,5 +18,5 @@ jobs:
           git-author-email: 'waroad@knu.ac.kr'
           git-author-name: 'waroad'
           sync-repository: Azure/azure-sdk
-          allow-files-pattern: 'docs/policies/README-EXAMPLE.md|docs/policies/support.md'
+          allow-files-pattern: 'README.md'
           sync-branch-name: 'main'
