@@ -19,4 +19,4 @@ jobs:
           git-author-name: 'waroad'
           sync-repository: Azure/azure-sdk
           allow-files-pattern: 'README.md'
-          sync-branch-name: 'main'
+          sync-branch-name: '3.5_deprecation'
