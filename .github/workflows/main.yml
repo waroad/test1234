@@ -19,4 +19,4 @@ jobs:
           git-author-name: 'waroad'
           sync-repository: waroad/dummy-source-repo
           allow-files-pattern: '^data2.txt|^dd/rrr.md|^data.txt'
-          sync-branch-name: 'main'
+          sync-branch-name: 'master'
