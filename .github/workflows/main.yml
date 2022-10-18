@@ -17,6 +17,6 @@ jobs:
         with:
           git-author-email: 'waroad@knu.ac.kr'
           git-author-name: 'waroad'
-          sync-repository: denis-tingaikin/sync-files
+          sync-repository: Azure/azure-sdk
           allow-files-pattern: 'README.md'
           sync-branch-name: 'main'
