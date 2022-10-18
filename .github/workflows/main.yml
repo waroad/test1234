@@ -13,7 +13,7 @@ jobs:
         with:
           repository: waroad/test1234
       - name: Sync files with dst-repsotiory!
-        uses: denis-tingaikin/sync-files@main
+        uses: waroad/sync-files@main
         with:
           git-author-email: 'waroad@knu.ac.kr'
           git-author-name: 'waroad'
