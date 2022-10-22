@@ -1,6 +1,4 @@
-# Azure Cosmos DB client library for Python (업데이트 전)
-
-(실제 Azure에는 없는 줄)
+# Azure Cosmos DB client library for Python
 
 Azure Cosmos DB is a globally distributed, multi-model database service that supports document, key-value, wide-column, and graph databases.
 
