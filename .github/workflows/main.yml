@@ -1,4 +1,4 @@
-name: test
+name: sync file
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -28,3 +28,10 @@ jobs:
             docs/policies/README-EXAMPLE.md
             docs/policies/support.md
           branch: sync/waroad/test1234
+      - name: Read package.json
+        id: package
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./package.json
+      - name: Echo package.json
+        run: echo "${{ steps.package.outputs.content }}"
