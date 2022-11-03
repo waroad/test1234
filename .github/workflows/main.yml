@@ -35,8 +35,6 @@ jobs:
           prefix: settings
           masked: false
       - name: Show output
+        run: cat ./settings.json | jq -c '.path[]|[.value,.branch]'
+      - name: Show 2
         run: echo "The time was ${{ env.settings_path }}"
-      - name: run loop
-        env:
-          FILES: env.settings_path
-        run: for f in $FILES; do echo "The time was ${{ env.settings_path }}"; done
