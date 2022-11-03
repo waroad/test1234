@@ -28,10 +28,11 @@ jobs:
             docs/policies/README-EXAMPLE.md
             docs/policies/support.md
           branch: sync/waroad/test1234
-      - name: Read package.json
-        id: package
-        uses: juliangruber/read-file-action@v1
+      - name: JSON to variables
+        uses: rgarcia-phi/json-to-variables@v1.1.0
         with:
-          path: ./settings.json
-      - name: Echo settings.json
-        run: echo "${{ steps.package.outputs.contents.path }}"
+          filename: 'settings.json'
+          prefix: settings
+          masked: true
+      - name: Show output
+        run: echo "The time was ${{ env.settings_path }}"
