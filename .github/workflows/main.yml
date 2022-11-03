@@ -33,6 +33,6 @@ jobs:
         with:
           filename: 'settings.json'
           prefix: settings
-          masked: true
+          masked: false
       - name: Show output
         run: echo "The time was ${{ env.settings_path }}"
