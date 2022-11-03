@@ -34,4 +34,4 @@ jobs:
         with:
           path: ./settings.json
       - name: Echo settings.json
-        run: echo "${{ steps.package.outputs.path }}"
+        run: echo "${{ steps.package.outputs.contents.path }}"
