@@ -1,1 +1,16 @@
-{"path": ["docs/policies/README-EXAMPLE.md", "ddd", "weraa"]}
+{
+  "path": [
+    {
+      "value": "docs/policies/README-EXAMPLE.md",
+      "branch": "main"
+    },
+    {
+      "value": "docs22/policies/README-EXAMPLE.md",
+      "branch": "main1"
+    },
+    {
+      "value": "docs33/policies/README-EXAMPLE.md",
+      "branch": "main2"
+    }
+  ]
+}
