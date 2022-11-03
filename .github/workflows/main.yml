@@ -4,6 +4,8 @@ on:
     - cron: "0 0 * * *"
   
   workflow_dispatch:
+env:
+  DAY_OF_WEEK: Monday
 jobs:
   test:
     name: test
@@ -34,7 +36,11 @@ jobs:
           filename: 'settings.json'
           prefix: settings
           masked: false
-      - name: Show output
-        run: cat ./settings.json | jq -c '.path[]|[.value,.branch]'
       - name: Show 2
         run: echo "The time was ${{ env.settings_path }}"
+      - name: Show output
+        run: cat ./settings.json | jq -c '.path[]|[.value,.branch]'
+      - name: Set env
+        run: echo "GITHUB_SHA_SHORT=$(cat ./settings.json | jq -c '.path[]|[.value,.branch]')" >> $GITHUB_ENV
+      - name: Test
+        run: echo $GITHUB_SHA_SHORT
