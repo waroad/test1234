@@ -41,6 +41,6 @@ jobs:
       - name: Show output
         run: cat ./settings.json | jq -c '.path[]|[.value,.branch]'
       - name: Set env
-        run: echo "GITHUB_SHA_SHORT=$(cat ./settings.json | jq -c .path[]|[.value,.branch])" >> $GITHUB_ENV
+        run: echo "GITHUB_SHA_SHORT=$(cat ./settings.json | jq -c .path[0]|'[.value,.branch]')" >> $GITHUB_ENV
       - name: Test
         run: echo $GITHUB_SHA_SHORT
