@@ -4,8 +4,6 @@ on:
     - cron: "0 0 * * *"
   
   workflow_dispatch:
-env:
-  DAY_OF_WEEK: Monday
 jobs:
   test:
     name: test
@@ -42,7 +40,7 @@ jobs:
       - name: Show 2
         run: echo "The time was ${{ env.settings_path }}"
       - name: show 3
-        run: for f in $settings_path; do echo f_0_name; done
+        run: for f in $settings_path; do echo f; done
       - name: Show output
         run: cat ./settings.json | jq -c '.path[]|.value'
       
