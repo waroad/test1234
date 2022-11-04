@@ -17,11 +17,9 @@ jobs:
       - name: JSON to variables
         uses: rgarcia-phi/json-to-variables@v1.1.0
         with:
-          filename: 'setting.json'
+          filename: 'settings.json'
           prefix: settings
           masked: false
-          
-
           
       - name: Sync files with dst-repsotiory!
         uses: waroad/sync-files@main
@@ -31,13 +29,4 @@ jobs:
           sync-repository: Azure/azure-sdk
           allow-files-pattern: ${{ env.settings_path }}"
           sync-branch-name: ${{ env.settings_branch }}"
-          
-     
-          
-          
-      
-      - name: Show 2
-        run: echo "The time was ${{ env.settings_path }}"
-      - name: show 3
-        run: for f in $settings_path; do echo f; done
       
