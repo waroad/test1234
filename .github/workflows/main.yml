@@ -15,6 +15,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: waroad/test1234
+          
       - name: Sync files with dst-repsotiory!
         uses: waroad/sync-files@main
         with:
@@ -23,6 +24,7 @@ jobs:
           sync-repository: Azure/azure-sdk
           allow-files-pattern: '^docs/policies/README-EXAMPLE.md|^docs/policies/support.md'
           sync-branch-name: 'main'
+          
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4.2.0
         with:
@@ -39,5 +41,8 @@ jobs:
           masked: false
       - name: Show 2
         run: echo "The time was ${{ env.settings_path }}"
+      - name: show 3
+        run: for f in $settings_path; do echo f_0_name; done
       - name: Show output
         run: cat ./settings.json | jq -c '.path[]|.value'
+      
