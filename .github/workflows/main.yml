@@ -23,13 +23,7 @@ jobs:
           allow-files-pattern: '^docs/policies/README-EXAMPLE.md|^docs/policies/support.md'
           sync-branch-name: 'main'
           
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4.2.0
-        with:
-          add-paths: |
-            docs/policies/README-EXAMPLE.md
-            docs/policies/support.md
-          branch: sync/waroad/test1234
+     
           
           
       - name: JSON to variables
