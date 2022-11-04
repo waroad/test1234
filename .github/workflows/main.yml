@@ -9,6 +9,12 @@ jobs:
     name: test
     runs-on: ubuntu-latest
     steps:
+      - name: JSON to variables
+        uses: rgarcia-phi/json-to-variables@v1.1.0
+        with:
+          filename: 'settings.json'
+          prefix: settings
+          masked: false
       - name: Checkout files
         uses: actions/checkout@v2
         with:
@@ -20,18 +26,13 @@ jobs:
           git-author-email: ${{ secrets.USER_EMAIL }}
           git-author-name: ${{ secrets.USER_NAME }}
           sync-repository: Azure/azure-sdk
-          allow-files-pattern: '^docs/policies/README-EXAMPLE.md|^docs/policies/support.md'
-          sync-branch-name: 'main'
+          allow-files-pattern: ${{ env.settings_path }}"
+          sync-branch-name: ${{ env.settings_branch }}"
           
      
           
           
-      - name: JSON to variables
-        uses: rgarcia-phi/json-to-variables@v1.1.0
-        with:
-          filename: 'settings.json'
-          prefix: settings
-          masked: false
+      
       - name: Show 2
         run: echo "The time was ${{ env.settings_path }}"
       - name: show 3
