@@ -6,11 +6,13 @@ jobs:
     name: test
     runs-on: ubuntu-latest
     steps:
-#       - name: Checkout files
-#         uses: actions/checkout@v2
-#         with:
-#           repository: waroad/test1234
+      - name: Checkout files
+        uses: actions/checkout@v2
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4.2.0
         with:
+          token: ${{ secrets.PAT }}
+          commit-message: Update report
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           branch: sync/waroad/test1234
