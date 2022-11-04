@@ -6,7 +6,11 @@ jobs:
     name: test
     runs-on: ubuntu-latest
     steps:
-     - name: Create Pull Request
-       uses: peter-evans/create-pull-request@v4.2.0
-       with:
+      - name: Checkout files
+        uses: actions/checkout@v2
+        with:
+          repository: waroad/test1234
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4.2.0
+        with:
           branch: sync/waroad/test1234
