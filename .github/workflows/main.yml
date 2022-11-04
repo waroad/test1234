@@ -27,6 +27,6 @@ jobs:
           git-author-email: ${{ secrets.USER_EMAIL }}
           git-author-name: ${{ secrets.USER_NAME }}
           sync-repository: Azure/azure-sdk
-          allow-files-pattern: ${{ env.settings_path }}"
-          sync-branch-name: ${{ env.settings_branch }}"
+          allow-files-pattern: ${{ env.settings_path }}
+          sync-branch-name: ${{ env.settings_branch }}
       
