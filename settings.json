@@ -1,7 +1,4 @@
 {
-  "path": [
-      "docs/policies/README-EXAMPLE.md",
-      "docs22/policies/README-EXAMPLE.md",
-      "docs33/policies/README-EXAMPLE.md"
-  ]
+  "path": "^docs/policies/README-EXAMPLE.md|^docs/policies/support.md",
+  "branch": "main"
 }
