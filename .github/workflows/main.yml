@@ -5,8 +5,8 @@ on:
   
   workflow_dispatch:
 jobs:
-  sync_file:
-    name: sync_file
+  job_1:
+    name: sync file from orgin
     runs-on: ubuntu-latest
     steps:
       - name: Checkout files
@@ -29,9 +29,22 @@ jobs:
           sync-repository: Azure/azure-sdk
           allow-files-pattern: ${{ env.settings_path }}
           sync-branch-name: ${{ env.settings_branch }}
+          result-branch-name: main
+  job_2:
+    name: make po file
+    needs: job_1
+    runs-on: ubuntu-latest
+    steps:
       - name: convert to po
         run : |
               mkdir subdir1
               pip install mdpo
-              md2po md ./docs/policies/README-EXAMPLE.md -q -s -p ko.po
+              md2po md ./docs/policies/README-EXAMPLE.md -q -s -p ./subdir1/ko.po
+      - name: Commit report
+        run: |
+          git add ./subdir1
+          git config --global user.name ${{ secrets.USER_NAME }}
+          git config --global user.email ${{ secrets.USER_EMAIL }}
+          git commit -am "Automated report"
+          git push
   
