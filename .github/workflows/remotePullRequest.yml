@@ -13,6 +13,7 @@ jobs:
               md2po md ./docs/policies/README-EXAMPLE.md -q -s -p ./subdir1/ko.po
       - name: Commit report
         run: |
+          git add
           git config --global user.name ${{ secrets.USER_NAME }}
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git commit -am "Automated report"
