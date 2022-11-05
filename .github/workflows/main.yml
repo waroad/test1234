@@ -38,9 +38,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: convert to po
         run : |
-              mkdir -p subdir1
-              pip install mdpo
-              md2po md ./docs/policies/README-EXAMPLE.md -q -s -p ./subdir1/ko.po
+          mkdir -p subdir1
+          pip install mdpo
+          md2po md ./docs/policies/README-EXAMPLE.md -q -s -p ./subdir1/ko.po
       - name: Commit report
         run: |
           git add ./subdir1
@@ -48,4 +48,4 @@ jobs:
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git commit -am "Automated report"
           git push
-  
+        if: ${{ github.event_name == 'push' }}
