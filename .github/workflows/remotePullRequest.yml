@@ -6,7 +6,7 @@ jobs:
     name: Add 3 and 7
     runs-on: ubuntu-latest
     steps:
-      - uses: "finnp/create-file-action@master"
+      - uses: "finnp/create-file-action@main"
         env:
           FILE_NAME: "dir/fileName.txt"
           FILE_DATA: "file content"
