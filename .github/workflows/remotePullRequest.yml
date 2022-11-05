@@ -1,7 +1,6 @@
 name: remote pull request
 on:
   workflow_dispatch:
-	
 jobs:
   job_1:
     name: Add 3 and 7
