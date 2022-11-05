@@ -6,7 +6,7 @@ msgstr ""
 msgid ""
 "Azure Cosmos DB is a globally distributed, multi-model database service that"
 " supports document, key-value, wide-column, and graph databases."
-msgstr ""
+msgstr "하하하"
 
 #: ./docs/policies/README-EXAMPLE.md:block 3 (paragraph)
 msgid ""
