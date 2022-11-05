@@ -30,7 +30,8 @@ jobs:
           allow-files-pattern: ${{ env.settings_path }}
           sync-branch-name: ${{ env.settings_branch }}
       - name: convert to po
-        run : pip install mdpo
-      - name: cc2
-        run : md2po md ./docs/policies/README-EXAMPLE.md -q -s -p ./docs/policies/ko.po
+        run : |
+              mkdir subdir1
+              pip install mdpo
+              md2po md ./docs/policies/README-EXAMPLE.md -q -s -p ko.po
   
