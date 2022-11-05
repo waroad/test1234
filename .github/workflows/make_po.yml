@@ -2,8 +2,6 @@ name: make po
 on:
   workflow_dispatch:
   push:
-   branches:
-     - main
 jobs:
   job_1:
     name: make po file
