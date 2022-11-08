@@ -5,7 +5,7 @@ folder: policies
 sidebar: general_sidebar
 ---
 
-## **Azure S22DK lifecycle and support policy**
+## **Azure SDK lifecycle and support policy**
 
 Azure SDK Lifecycle and support are governed by the latest [Microsoft Modern Lifecycle Policy](https://docs.microsoft.com/en-US/lifecycle/policies/modern), which will prevail in case of any conflicts with the information below.
 
