@@ -8,11 +8,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
+      - name: JSON to variables
+        uses: rgarcia-phi/json-to-variables@v1.1.0
+        with:
+          filename: 'settings_modified.json'
+          prefix: settings
+          masked: false
+          
       - name: convert to po
         run : |
           mkdir -p po
           pip install mdpo
-          md2po md ./docs/policies/README-EXAMPLE.md ./docs/policies/support.md -q -s -p ./subdir1/ko.po
+          md2po md ${{ env.settings_path_sum_mdpo }} -q -s -p ./po/ko.po
       - name: Commit report
         run: |
           git add ./po
