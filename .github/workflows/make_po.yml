@@ -26,5 +26,5 @@ jobs:
           git add ./po
           git config --global user.name ${{ secrets.USER_NAME }}
           git config --global user.email ${{ secrets.USER_EMAIL }}
-          git commit -am "Automated report"
+          git commit --allow-empty -am "update ko.po file"
           git push
