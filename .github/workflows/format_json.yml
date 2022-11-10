@@ -17,8 +17,8 @@ jobs:
           repository: waroad/test1234
       - name: format json
         run: |
-          python3 jsonFormating.py
-          git add . 
+          python3 ./codes/jsonFormating.py
+          git add ./codes 
           git config --global user.name ${{ secrets.USER_NAME }}
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git commit -am "format json"
