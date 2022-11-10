@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   job_1:
-    name: sync file from orgin
+    name: format settings.json
     runs-on: ubuntu-latest
     steps:
       - name: Checkout files
