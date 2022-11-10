@@ -12,7 +12,7 @@ jobs:
       - name: JSON to variables
         uses: rgarcia-phi/json-to-variables@v1.1.0
         with:
-          filename: './codes/settings_modified.json'
+          filename: 'settings_modified.json'
           prefix: settings
           masked: false
           
