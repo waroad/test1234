@@ -10,5 +10,5 @@ with open("settings.json", "r") as json_file:
     dict1["path_sum_sync"] = path_sum_sync[:-1]
     dict1["path_sum_mdpo"] = path_sum_mdpo[:-1]
     del dict1["path"]
-    with open("./codes/settings_modified.json", "w") as json_w:
+    with open("settings_modified.json", "w") as json_w:
         json.dump(dict1, json_w)
