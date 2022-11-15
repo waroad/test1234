@@ -38,6 +38,7 @@ jobs:
       - name: move synced files to the desired directory
         run: |
           mv docs/ mdpo/
+          git pull origin main
           git add .
           git config --global user.name ${{ secrets.USER_NAME }}
           git config --global user.email ${{ secrets.USER_EMAIL }}
