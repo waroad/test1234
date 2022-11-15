@@ -1,11 +1,10 @@
 name: make po
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - docs/**
+  workflow_run:
+    workflows: ["sync file"]
+    types:
+      - completed
 jobs:
   job_1:
     name: make po file
