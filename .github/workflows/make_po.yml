@@ -23,7 +23,7 @@ jobs:
           md2po md ${{ env.settings_path_sum_mdpo }} -q -s -p ./mdpo/po/ko.po
       - name: Commit report
         run: |
-          git add ./po
+          git add ./mdpo/po
           git config --global user.name ${{ secrets.USER_NAME }}
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git commit -am "update ko.po file"
