@@ -4,7 +4,7 @@ on:
     branches:    
       - 'main'
     paths:
-      - 'settings.json'
+      - 'mdpo/settings.json'
   workflow_dispatch:
 jobs:
   job_1:
