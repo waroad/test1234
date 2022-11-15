@@ -36,7 +36,6 @@ jobs:
     steps:
       - name: move synced files to the desired directory
         run: |
-          cd docs
           mv docs/ mdpo/
           git add .
           git config --global user.name ${{ secrets.USER_NAME }}
