@@ -12,6 +12,7 @@ jobs:
       - name: Checkout files
         uses: actions/checkout@v2
         with:
+          repository: waroad/test1234
           token: ${{ secrets.pat }}
       - name: JSON to variables
         uses: rgarcia-phi/json-to-variables@v1.1.0
