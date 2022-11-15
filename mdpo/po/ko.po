@@ -28,10 +28,6 @@ msgid ""
 "enforced by code generation tools."
 msgstr ""
 
-#: docs/cpp/implementation.md:block 6 (header)
-msgid "Service Client"
-msgstr ""
-
 #: docs/cpp/implementation.md:block 7 (paragraph)
 msgid ""
 "When configuring your client library, particular care must be taken to "
@@ -2698,6 +2694,13 @@ msgstr ""
 #: docs/policies/support.md:block 2 (header)
 msgid "**Azure SDK lifecycle and support policy**"
 msgstr ""
+
+#: docs/cpp/implementation.md:block 6 (header)
+msgid "Service Client1"
+msgstr ""
+
+#~ msgid "Service Client"
+#~ msgstr ""
 
 #~ msgid "Azure Cosmos DB client library for Python1"
 #~ msgstr ""
