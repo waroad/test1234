@@ -1,1 +1,1 @@
-{"branch": "main", "path_sum_sync": "^docs/policies/README-EXAMPLE.md|^docs/policies/support.md|^docs/cpp/implementation.md|^docs/cpp/reps.md", "path_sum_mdpo": "docs/policies/README-EXAMPLE.md docs/policies/support.md docs/cpp/implementation.md docs/cpp/reps.md"}
+{"branch": "main", "path_sum_sync": "^docs/policies/README-EXAMPLE.md|^docs/policies/support.md|^docs/cpp/implementation.md|^docs/cpp/refs.md", "path_sum_mdpo": "docs/policies/README-EXAMPLE.md docs/policies/support.md docs/cpp/implementation.md docs/cpp/refs.md"}
