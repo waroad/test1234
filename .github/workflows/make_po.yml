@@ -32,3 +32,10 @@ jobs:
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git commit -am "update ko.po file"
           git push
+          
+      - name: Get changed files in the docs folder
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v34
+        with:
+          files: |
+            docs/**
