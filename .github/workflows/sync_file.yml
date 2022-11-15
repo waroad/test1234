@@ -28,5 +28,6 @@ jobs:
           allow-files-pattern: ${{ env.settings_path_sum_sync }}
           sync-branch-name: ${{ env.settings_branch }}
           result-branch-name: main
+          working-directory: dd
  
 
