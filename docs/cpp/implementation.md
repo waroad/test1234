@@ -1,4 +1,4 @@
----
+---1
 title: "C++ Guidelines: Implementation"
 keywords: guidelines cpp
 permalink: cpp_implementation.html
