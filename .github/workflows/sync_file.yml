@@ -28,4 +28,8 @@ jobs:
           allow-files-pattern: ${{ env.settings_path_sum_sync }}
           sync-branch-name: ${{ env.settings_branch }}
           result-branch-name: main
+          
+      - name: move synced files to the desired directory
+        run: |
+          mv docs mdpo
 
