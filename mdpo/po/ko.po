@@ -2705,8 +2705,5 @@ msgstr ""
 #~ msgid "**Azure SDK lifecycle and support polic66y**"
 #~ msgstr ""
 
-#~ msgid "Azure Cosmos DB client library for Python"
-#~ msgstr ""
-
 #~ msgid "API Implementation111"
 #~ msgstr ""
