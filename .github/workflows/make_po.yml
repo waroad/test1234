@@ -13,15 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Get changed files in the docs folder
-        id: changed-files-specific
-        uses: tj-actions/changed-files@v34
-        with:
-          files: |
-            docs/**
-      
-      
-      
       - name: JSON to variables
         uses: rgarcia-phi/json-to-variables@v1.1.0
         with:
