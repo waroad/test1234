@@ -21,10 +21,6 @@ msgstr ""
 msgid "TODO: This section needs to be driven by code in the Core library."
 msgstr ""
 
-#: docs/cpp/implementation.md:block 4 (header)
-msgid "API Implementation"
-msgstr ""
-
 #: docs/cpp/implementation.md:block 5 (paragraph)
 msgid ""
 "This section describes guidelines for implementing Azure SDK client "
@@ -2698,3 +2694,10 @@ msgid ""
 "track bugs and feature requests. GitHub issues are free, but may take a "
 "longer time to process."
 msgstr ""
+
+#: docs/cpp/implementation.md:block 4 (header)
+msgid "API Implementation111"
+msgstr ""
+
+#~ msgid "API Implementation"
+#~ msgstr ""
