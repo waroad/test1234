@@ -12,15 +12,15 @@ jobs:
       - name: JSON to variables
         uses: rgarcia-phi/json-to-variables@v1.1.0
         with:
-          filename: 'settings_modified.json'
+          filename: 'mdpo/settings_modified.json'
           prefix: settings
           masked: false
           
       - name: convert to po
         run : |
-          mkdir -p po
+          mkdir -p mdpo/po
           pip install mdpo
-          md2po md ${{ env.settings_path_sum_mdpo }} -q -s -p ./po/ko.po
+          md2po md ${{ env.settings_path_sum_mdpo }} -q -s -p ./mdpo/po/ko.po
       - name: Commit report
         run: |
           git add ./po
