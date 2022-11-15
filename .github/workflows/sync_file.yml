@@ -27,13 +27,6 @@ jobs:
           allow-files-pattern: ${{ env.settings_path_sum_sync }}
           sync-branch-name: ${{ env.settings_branch }}
           result-branch-name: main
-          
-      - id: files
-        uses: jitterbit/get-changed-files@v1
-      - run: |
-          for changed_file in ${{ steps.files.outputs.all }}; do
-            echo "Do something with this ${changed_file}."
-          done
 
 
 
