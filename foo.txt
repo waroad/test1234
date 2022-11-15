@@ -1,0 +1,11 @@
+.github/workflows/format_json.yml
+.github/workflows/make_po.yml
+.github/workflows/remotePullRequest.yml
+.github/workflows/sync_file.yml
+.syncignore
+mdpo/.syncignore
+mdpo/jsonFormating.py
+mdpo/po/ko.po
+mdpo/requirements.txt
+mdpo/settings.json
+mdpo/settings_modified.json
