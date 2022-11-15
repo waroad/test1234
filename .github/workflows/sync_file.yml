@@ -37,6 +37,9 @@ jobs:
         uses: actions/checkout@v2
       - name: move synced files to the desired directory
         run: |
+          cd mdpo/
+          rm -r docs/
+          cd ..
           mv docs/ mdpo/
           git pull origin main
           git add .
