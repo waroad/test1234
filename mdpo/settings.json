@@ -1,4 +1,5 @@
 {
   "path": ["docs/policies/README-EXAMPLE.md", "docs/policies/support.md", "docs/cpp/implementation.md", "docs/cpp/refs.md"],
+  "sync-repo": "Azure/azure-sdk",
   "branch": "main"
 }
