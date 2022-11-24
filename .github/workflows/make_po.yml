@@ -24,8 +24,7 @@ jobs:
         run : |
           mkdir -p mdpo/po
           pip install mdpo
-          md2po md ${{ env.settings_path_sum_mdpo }} -q -s -p ./mdpo/po/ko.po
-          for i in ${{ env.settings_path_sum_mdpo }}; do echo $i; done
+          for i in ${{ env.settings_path_sum_mdpo }}; do md2po md $i -q -s -p ./mdpo/po/$i; done
       - name: Commit report
         run: |
           git add ./mdpo/po
