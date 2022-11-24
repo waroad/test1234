@@ -1830,8 +1830,8 @@ msgid "`/W4`"
 msgstr ""
 
 #: docs/cpp/implementation.md:block 4 (header)
-msgid "API 2222Implementation"
+msgid "API Implementation"
 msgstr ""
 
-#~ msgid "API Implementation"
+#~ msgid "API 2222Implementation"
 #~ msgstr ""
