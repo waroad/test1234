@@ -22,11 +22,10 @@ jobs:
           
       - name: convert to po
         run : |
-          v2=${v::-2}
           mkdir -p mdpo/ko
           for i in ${{ env.settings_path_mkdir }}; do mkdir -p mdpo/ko/"$i"; done
           pip install mdpo
-          for i in ${{ env.settings_path_sum_mdpo }}; do md2po md $i -q -s -p ./mdpo/ko/"$i --> $v2"po; done
+          for i in ${{ env.settings_path_sum_mdpo }}; do v2=${i::-2}; md2po md $i -q -s -p ./mdpo/ko/"$v2"po; done
       - name: Commit report
         run: |
           git add ./mdpo/ko
