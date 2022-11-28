@@ -1830,10 +1830,10 @@ msgid "API Implementation"
 msgstr ""
 
 #: docs/cpp/implementation.md:block 6 (header)
-msgid "Service Client44"
+msgid "Service Client"
 msgstr ""
 
-#~ msgid "Service Client"
+#~ msgid "Service Client44"
 #~ msgstr ""
 
 #~ msgid "API I222mplementation"
