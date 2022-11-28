@@ -45,7 +45,7 @@ jobs:
       - name: diff
         run: |
          date >> mdpo/mdpo.md
-         echo "  " >> mdpo/mdpo.md
+         echo "" >> mdpo/mdpo.md
          git diff --name-only HEAD~0 HEAD~1 >> mdpo/mdpo.md
          echo "modified.  " >> mdpo/mdpo.md
          git add .
@@ -61,10 +61,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          token: ${{secrets.PAS_TOKEN}}
           fetch-depth: 2
       - name: Copy To Branches Action
         uses: planetoftheweb/copy-to-branches@v1
         env:
           key: main
           branch: gh-pages
-          files: mdpo.md
+          files: mdpo/mdpo.md
