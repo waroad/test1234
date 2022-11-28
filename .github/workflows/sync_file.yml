@@ -13,6 +13,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           token: ${{secrets.PAS_TOKEN}}
+          fetch-depth: 3
           
       - name: JSON to variables
         uses: rgarcia-phi/json-to-variables@v1.1.0
