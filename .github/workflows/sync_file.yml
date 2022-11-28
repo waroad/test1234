@@ -33,6 +33,8 @@ jobs:
           result-branch-name: main
       - name: diff
         run: |
-         git diff --name-only HEAD~0 HEAD~1 
+         date >> foo.txt
+         git diff --name-only HEAD~0 HEAD~1 >> foo.txt
+         echo "modified." >> foo.txt
 
 
