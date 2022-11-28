@@ -32,15 +32,15 @@ jobs:
           result-branch-name: main
       - name: diff
         run: |
-         git diff HEAD --name-only
+         git diff --name-only HEAD 
       - name: diff1
         run: |
          git diff --name-only
       - name: diff2
         run: |
-         git diff HEAD^ --name-only
+         git diff --name-only HEAD^ 
       - name: diff3
         run: |
-         git diff HEAD^^ --name-only
+         git diff --name-only HEAD^^ 
 
 
