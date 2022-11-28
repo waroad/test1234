@@ -37,7 +37,7 @@ If you need a Cosmos DB SQL API account, you can use the Azure [Cloud Shell][clo
 az cosmosdb create --resource-group <resource-group-name> --name <cosmos-account-name>
 ```
 
-### Authenticate the client
+### Authenticate the client444
 
 Interaction with Cosmos DB starts with an instance of the `CosmosClient` class. You need an **account**, its **URI**, and one of its **account keys** to instantiate the client object.
 
