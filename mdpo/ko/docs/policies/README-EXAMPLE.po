@@ -636,8 +636,8 @@ msgid "[virtualenv]: https://virtualenv.pypa.io"
 msgstr "[virtualenv]: https://virtualenv.pypa.io"
 
 #: docs/policies/README-EXAMPLE.md:block 12 (header)
-msgid "Authenticate the client444"
+msgid "Authenticate the client"
 msgstr ""
 
-#~ msgid "Authenticate the client"
+#~ msgid "Authenticate the client444"
 #~ msgstr ""
