@@ -21,7 +21,7 @@ Use the Cosmos DB client library for Python to manage databases and the JSON doc
 
 ## Getting started
 
-### Install the packageff
+### Install the package
 
 Install the Azure Cosmos DB client library for Python with [pip][pip]:
 
