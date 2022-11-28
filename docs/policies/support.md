@@ -9,7 +9,7 @@ sidebar: general_sidebar
 
 Azure SDK Lifecycle and support are governed by the latest [Microsoft Modern Lifecycle Policy](https://docs.microsoft.com/en-US/lifecycle/policies/modern), which will prevail in case of any conflicts with the information below.
 
-### **Package lifecycle**
+### **Package lifecycle**hh
 
 Here are the stages of a typical package lifecycle (for major versions)
 
