@@ -83,10 +83,6 @@ msgstr ""
 msgid "Getting started"
 msgstr ""
 
-#: docs/policies/README-EXAMPLE.md:block 6 (header)
-msgid "Install the package"
-msgstr ""
-
 #: docs/policies/README-EXAMPLE.md:block 7 (paragraph)
 msgid "Install the Azure Cosmos DB client library for Python with [pip]:"
 msgstr ""
@@ -638,6 +634,13 @@ msgstr "[virtualenv]: https://virtualenv.pypa.io"
 #: docs/policies/README-EXAMPLE.md:block 12 (header)
 msgid "Authenticate the client"
 msgstr ""
+
+#: docs/policies/README-EXAMPLE.md:block 6 (header)
+msgid "Install the package66"
+msgstr ""
+
+#~ msgid "Install the package"
+#~ msgstr ""
 
 #~ msgid "Authenticate the client444"
 #~ msgstr ""
