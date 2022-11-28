@@ -33,7 +33,14 @@ jobs:
       - name: diff
         run: |
          git diff HEAD --name-only
+      - name: diff1
+        run: |
          git diff --name-only
+      - name: diff2
+        run: |
          git diff --cached --name-only
+      - name: diff3
+        run: |
+         git diff --name-only --cached
 
 
