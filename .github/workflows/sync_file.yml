@@ -31,6 +31,17 @@ jobs:
           allow-files-pattern: ${{ env.settings_path_sum_sync }}
           sync-branch-name: ${{ env.settings_branch }}
           result-branch-name: main
+  
+  job_2:
+    name: update log file.
+    runs-on: ubuntu-latest
+    needs: job_1
+    steps:
+      - name: Checkout files
+        uses: actions/checkout@v2
+        with:
+          token: ${{secrets.PAS_TOKEN}}
+          fetch-depth: 3
       - name: diff
         run: |
          date >> foo.txt
