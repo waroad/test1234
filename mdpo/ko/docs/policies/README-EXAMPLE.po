@@ -104,10 +104,6 @@ msgid ""
 "Shell][cloud_shell_bash] to create one with this Azure CLI command:"
 msgstr ""
 
-#: docs/policies/README-EXAMPLE.md:block 12 (header)
-msgid "Authenticate the client"
-msgstr ""
-
 #: docs/policies/README-EXAMPLE.md:block 13 (paragraph)
 msgid ""
 "Interaction with Cosmos DB starts with an instance of the `CosmosClient` "
@@ -638,3 +634,10 @@ msgstr "[venv]: https://docs.python.org/3/library/venv.html"
 #, fuzzy
 msgid "[virtualenv]: https://virtualenv.pypa.io"
 msgstr "[virtualenv]: https://virtualenv.pypa.io"
+
+#: docs/policies/README-EXAMPLE.md:block 12 (header)
+msgid "Authenticate the client444"
+msgstr ""
+
+#~ msgid "Authenticate the client"
+#~ msgstr ""
