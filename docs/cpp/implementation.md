@@ -20,7 +20,7 @@ When configuring your client library, particular care must be taken to ensure th
 
 > TODO: add a brief mention of the approach to implementing service clients.
 
-#### Service Methods6666
+#### Service Methods
 
 > TODO: Briefly introduce that service methods are implemented via an `HttpPipeline` instance.  Mention that much of this is done for you using code generation.
 
