@@ -28,10 +28,6 @@ msgid ""
 "enforced by code generation tools."
 msgstr ""
 
-#: docs/cpp/implementation.md:block 6 (header)
-msgid "Service Client"
-msgstr ""
-
 #: docs/cpp/implementation.md:block 7 (paragraph)
 msgid ""
 "When configuring your client library, particular care must be taken to "
@@ -1832,6 +1828,13 @@ msgstr ""
 #: docs/cpp/implementation.md:block 4 (header)
 msgid "API Implementation"
 msgstr ""
+
+#: docs/cpp/implementation.md:block 6 (header)
+msgid "Service Client44"
+msgstr ""
+
+#~ msgid "Service Client"
+#~ msgstr ""
 
 #~ msgid "API I222mplementation"
 #~ msgstr ""
