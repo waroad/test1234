@@ -636,10 +636,10 @@ msgid "Install the package"
 msgstr ""
 
 #: docs/policies/README-EXAMPLE.md:block 1 (header)
-msgid "Azure Cosmos DB client library for Python23232"
+msgid "Azure Cosmos DB client library for Python"
 msgstr ""
 
-#~ msgid "Azure Cosmos DB client library for Python"
+#~ msgid "Azure Cosmos DB client library for Python23232"
 #~ msgstr ""
 
 #~ msgid "Install the packageff"
