@@ -36,5 +36,10 @@ jobs:
          date >> foo.txt
          git diff --name-only HEAD~0 HEAD~1 >> foo.txt
          echo "modified." >> foo.txt
+         git add foo.txt
+         git config --global user.name ${{ secrets.USER_NAME }}
+         git config --global user.email ${{ secrets.USER_EMAIL }}
+         git commit -am "commit log."
+         git push
 
 
