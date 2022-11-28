@@ -32,8 +32,8 @@ jobs:
           result-branch-name: main
       - name: diff
         run: |
-         git diff HEAD
-         git diff
-         git diff --cached
+         git diff HEAD --name-only
+         git diff --name-only
+         git diff --cached --name-only
 
 
