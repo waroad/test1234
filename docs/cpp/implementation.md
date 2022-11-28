@@ -10,7 +10,7 @@ sidebar: general_sidebar
 
 > TODO: This section needs to be driven by code in the Core library.
 
-## API Implementation33
+## API Implementation
 
 This section describes guidelines for implementing Azure SDK client libraries. Please note that some of these guidelines are automatically enforced by code generation tools.
 
