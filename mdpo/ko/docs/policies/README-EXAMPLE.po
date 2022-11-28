@@ -2,10 +2,6 @@
 msgid ""
 msgstr ""
 
-#: docs/policies/README-EXAMPLE.md:block 1 (header)
-msgid "Azure Cosmos DB client library for Python"
-msgstr ""
-
 #: docs/policies/README-EXAMPLE.md:block 2 (paragraph)
 msgid ""
 "Azure Cosmos DB is a globally distributed, multi-model database service that"
@@ -638,6 +634,13 @@ msgstr ""
 #: docs/policies/README-EXAMPLE.md:block 6 (header)
 msgid "Install the package"
 msgstr ""
+
+#: docs/policies/README-EXAMPLE.md:block 1 (header)
+msgid "Azure Cosmos DB client library for Python23232"
+msgstr ""
+
+#~ msgid "Azure Cosmos DB client library for Python"
+#~ msgstr ""
 
 #~ msgid "Install the packageff"
 #~ msgstr ""
