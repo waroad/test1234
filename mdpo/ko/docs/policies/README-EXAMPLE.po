@@ -636,10 +636,10 @@ msgid "Authenticate the client"
 msgstr ""
 
 #: docs/policies/README-EXAMPLE.md:block 6 (header)
-msgid "Install the packageff"
+msgid "Install the package"
 msgstr ""
 
-#~ msgid "Install the package"
+#~ msgid "Install the packageff"
 #~ msgstr ""
 
 #~ msgid "Install the package66"
