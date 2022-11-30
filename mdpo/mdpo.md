@@ -39,3 +39,9 @@ Wed Nov 30 01:24:31 UTC 2022
 mdpo/mdpo.md
 modified.
 
+Wed Nov 30 10:53:51 UTC 2022
+----------
+docs/android/approved_dependencies.md
+docs/java/approved_dependencies.md
+modified.
+
