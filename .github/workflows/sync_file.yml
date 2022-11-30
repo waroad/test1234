@@ -46,6 +46,7 @@ jobs:
         run: |
          date >> mdpo/mdpo.md
          echo "----------" >> mdpo/mdpo.md
+         git pull
          git diff --name-only HEAD~0 HEAD~1 >> mdpo/mdpo.md
          echo "modified." >> mdpo/mdpo.md
          echo "" >> mdpo/mdpo.md
