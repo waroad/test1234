@@ -45,3 +45,10 @@ docs/android/approved_dependencies.md
 docs/java/approved_dependencies.md
 modified.
 
+Wed Nov 30 10:58:50 UTC 2022
+----------
+mdpo/ko/docs/android/approved_dependencies.po
+mdpo/ko/docs/java/approved_dependencies.po
+mdpo/ko/docs/java/spring.po
+modified.
+
